@@ -1,0 +1,66 @@
+:focus {
+  outline: thick groove indigo;
+  text-shadow: -2vw 2vh 0 lemonchiffon;
+}
+
+:active {
+  text-shadow: 1vw 1vh 0 salmon;
+}
+
+::selection {
+  background: #f60;
+  color: indigo;
+}
+
+:root {
+  --tape-filter: hue-rotate(0deg);
+  --tape-hex: sienna;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --tape-hex: peachpuff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :focus {
+    outline-color: seashell;
+  }
+}
+
+.thrill {}
+.riot {}
+
+html {
+  font-family: monospace;
+  font-size: max(20pt, 2vmax + 2vmin);
+  line-height: 1.6;
+}
+
+body {
+  margin: 1rem 2rem;
+  min-height: 100vh;
+  overflow-wrap: anywhere;
+}
+
+.free {
+  margin: auto;
+}
+
+.wing {
+  display: flow-root;
+}
+
+.rosa {
+  font-size: 1.6rem;
+}
+
+.soar {
+  font-size: 2.6rem;
+}
+
+.dear {
+  margin: 0;
+  font: inherit;
+}
